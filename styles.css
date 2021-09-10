@@ -1,0 +1,45 @@
+#colors{
+    color: 
+   #FFFFFF
+   #EEEEEE
+   #DDDDDD
+   #000103
+   #333138
+   #4E598C
+   #4E59FF
+   #F9C784
+   #FCAF58
+   #FF8C42
+   #FF312E;
+}
+
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: #4E598C;
+    height: 8.6vh;
+}
+
+.nav img{
+    width: 65px;
+    float: left;
+}
+
+.nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0 0 0 80%;
+}
+
+.nav li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 22px 25px;
+}
