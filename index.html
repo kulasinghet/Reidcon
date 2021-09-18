@@ -8,20 +8,81 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="Task\images\logo.png">
         <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
-       <div class="nav">
-           <img src="Task\images\logo.png">
-           <ul>
+        <div class="nav">
+            <img src="Task\images\logo.png">
+            <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="why.html">WHY HTML?</a></li>
             </ul>
-       </div>
-       <p class="heading">HOME</p>
-       <p></p>
-       <a href="why.html"><button type='submit'>Why HTML</button></a>       
-       <img src="Task/images/hero.jpg">
+        </div>
+        <div class="container">
+            <div class="content">
+                <p class="heading">HOME</p>
+                <p class="para">
+                    HTML markup consists of several key components, including those called tags<br/> 
+                    (and their attributes), character-based data types, character references and <br/>
+                    entity references. HTML tags most commonly come in pairs like &lt;<b>h1</b>&gt; and<br/>
+                    &lt;<b>/h1</b>&gt;, although some represent empty elements and so are unpaired, for <br/>
+                    example &lt;<b>img</b>&gt;. The first tag in such a pair is the start tag, and the second is<br/>
+                    the end tag (they are also called opening tags and closing tags).
+                </p>
+                <br>
+                <a href="why.html"><button type='submit'>Why HTML?</button></a>
+            </div>     
+            <img src="Task/images/hero.jpg" class="hero">
+        </div>
+        <div class="table_content">
+            <h5>Sample Table</h5>   
+            <span>Following table uses <tt>colspan</tt> and <tt>rowspan</tt> attributes inside <b>&lt;td&gt;</b> to merge two or more cells</span>
+            <table>
+               <tr>
+                   <th></th>
+                   <th>First Year</th>
+                   <th>Second Year</th>
+                   <th>Third Year</th>
+                   <th>Fourth Year</th>
+               </tr>
+               <tr>
+                   <td>8.00 a.m. - 10.00 a.m.</td>
+                   <td>Data Structures & Algorithms</td>
+                   <td>Software Engineering</td>
+                   <td>Mobile Aplication Development</td>
+                   <td>Parallel Computing</td>
+               </tr>
+               <tr>
+                   <td>10.00 a.m. - 12.00 a.m.</td>
+                   <td>Database</td>
+                   <td>Functional Programming</td>
+                   <td>Machine Learning</td>
+                   <td>Computational Biology</td>
+               </tr>
+               <tr style="color: #4E598C;">
+                   <td>12.00 a.m. - 1.00 p.m.</td>
+                   <td colspan="4" align="center">Interval</td>
+               </tr>
+               <tr>
+                   <td>1.00 p.m. - 3.00 p.m.</td>
+                   <td>Mathematics</td>
+                   <td rowspan="2">
+                       Group Project
+                       <ul>
+                           <li>Previous Progress</li>
+                           <li>Plan for next week</li>
+                       </ul>
+                   </td>
+                   <td>Game Development</td>
+                   <td>Congnitive Robotics</td>
+               </tr>
+               <tr>
+                   <td>3.00 p.m. - 5.00 p.m.</td>
+                   <td>Programming Using C</td>
+                   <td>Management</td>
+                   <td>Philosophy of Science</td>
+               </tr>
+           </table>
+        </div>
     </body>
 </html>
