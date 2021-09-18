@@ -19,7 +19,7 @@ body{
 
 .nav{
     background-color: #4E598C;
-    height: 9.5vh;
+    height: 8.6vh;
 }
 
 .nav img{
@@ -28,7 +28,7 @@ body{
 }
 
 .nav ul {
-    /*list-style-type: none;*/
+    list-style-type: none;
     overflow: hidden;
     margin: 0 0 0 80%;
 }
@@ -43,3 +43,50 @@ body{
     display: block;
     padding: 22px 25px;
 }
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .flex-container .box {
+    background-color: #ffffff;
+    width: 100%;
+    margin: 10px;
+    line-height: 20px;
+}
+
+.Title1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.T1-Para {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.Title2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.T2-Para {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+.Title3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.T3-Para {
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+}
+
+
+
