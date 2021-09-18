@@ -43,3 +43,9 @@ body{
     display: block;
     padding: 22px 25px;
 }
+
+.heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-weight: none;
+}
