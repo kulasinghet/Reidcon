@@ -19,7 +19,7 @@ body{
 
 .nav{
     background-color: #4E598C;
-    height: 8.6vh;
+    height: 9.5vh;
 }
 
 .nav img{
@@ -28,16 +28,16 @@ body{
 }
 
 .nav ul {
-    list-style-type: none;
+    /*list-style-type: none;*/
     overflow: hidden;
     margin: 0 0 0 80%;
 }
 
-.nav li a{
+.nav a{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    color: #FFFFFF;
-    float: left;
+    color: #ffffff;
+    float: right;
     text-align: center;
     text-decoration: none;
     display: block;
